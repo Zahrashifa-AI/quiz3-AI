@@ -1,0 +1,52 @@
+Nama : Zahra Shifa Nurhaliza 
+Kelas : A - Artificial Intelligence (AI)
+
+--- QUIZ 2 ---
+
+1. Pengertian Git
+Git adalah singkatan dari Group Inclusive Tour. Git merupakan version control system yang gratis dan bersifat open source
+Git juga dirancang untuk menangani segala project baik itu project besar atau project sederhana. Lalu git memungkinkan para pengembang untuk bekerja sesecara bersamaan ada proyek yang sama juga dan melacak setiap perubahan yang dilakukan pada source code.
+
+2. Terdapat 2 sistem git, yaitu centralized dan distributed:
+• Centralized 
+Git centralized berkerja hanya dengan menggunakan satu server yang berfungsi untuk menyimpan data dari project. Sistem git ini membutuhkan koneksi network untuk dapat mengakses data dari project. Selain itu, ketika terjadi sesuatu pada server seperti server corrupt, maka data project yang ada di dalam server akan berpotensi untuk hilang juga.
+• Distributed
+Git distributed bekerja dengan menyimpan data project di lokal dan juga di server. Sehingga lebih aman ketika terjadi sesuatu pada server seperti server corrupt karena sudah terdapat backup dari data project di lokal.
+Jadi kedua sistem itu dibedakan dalam sistem kerja yang menstabilkan pada project. 
+
+Lalu ada juga fitur-fitur Git :
+- Version Control 
+Pada fitur ini, untuk Git menyimpan setiap perubahan yang diubah pada source code, bisa membuat pengguna untuk memantau dan mengelola code version yang berbeda.
+- Git Branch 
+Fitur yang paling sering digunakan dalam version control system. Branch digunakan ketika developer akan menambahkan fitur baru atau memperbaiki bug. Fungsi utama dari branch yaitu agar pada saat penambahan fitur baru tidak mengganggu source code utama. Ketika pengerjaan dari fitur baru sudah diselesaikan dan sudah di testing, maka branch feature akan dimerge ke dalam branch master/main.
+- Merging
+Pada fitur ini git memungkinkan pengguna yang telah selesai mendevelop code dan sudah melakukan testing pada branch baru untuk menggabungkan perubahan yang telah dibuat ke branch utama.
+- Staging area
+Lalu pada fitur ini juga Git memiliki staging area, di mana pengguna dapat memilih perubahan mana yang akan di-commit ke repository.
+- Git Rebase
+Git rebase digunakan untuk menggabungkan atau menggeser commit base. Seperti pembuatan branch baru dari feature, branch pada master/main melakukan commit baru, dan melakukan Git rebase untuk menggeser commit base ke posisi terakhir dari commit pada branch master / main. 
+- Hooks 
+Fitur Git hooks yaitu menjalankan script secara otomatis pada peristiwa otomatis dalam Git seperti commit dan push. 
+- GUI tools 
+Pada fitur ini Git menyediakan GUI tools, seperti GitKraken dan Sourcetree untuk memudahkan penggunaan Git bagi pengguna yang tidak terbiasa dengan line.
+- Git menyediakan GUI tools, seperti GitKraken dan Sourcetree, untuk memudahkan penggunaan Git bagi pengguna yang kurang terbiasa dengan command line
+
+3. Keunggulan dan kelemahan Git
+ • Kelebihan
+  • Dapat mengelola versi kode sumber dengan mudah dan efisien.
+  • Dapat melakukan branching dan merging dengan mudah dan aman.
+  • Dapat melacak perubahan dan siapa yang membuat perubahan pada source code.
+  • Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar.
+
+ •Kelemahan
+  •Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman.
+  •Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging.
+  •Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video.
+
+4. Adapun cara Instalasi Git
+  • Buka halaman download Git di https://git-scm.com/downloads
+  • Pilih versi Git yang sesuai untuk sistem operasi Anda (Windows, Mac, atau Linux)
+  • Klik link download untuk mulai mengunduh instalator Git.
+  • Setelah unduhan selesai, buka file instalator dan ikuti instruksi yang muncul pada layar.
+  • Selama proses instalasi, kalian dapat memilih komponen yang ingin diinstal dan direktori tempat Git akan diinstal.
+  • Setelah instalasi selesai, kalian dapat memverifikasi instalasi Git dengan membuka terminal (command prompt di Windows) dan mengetikkan perintah git --version. Jika Git terinstal dengan benar, versi Git yang terpasang akan ditampilkan.
